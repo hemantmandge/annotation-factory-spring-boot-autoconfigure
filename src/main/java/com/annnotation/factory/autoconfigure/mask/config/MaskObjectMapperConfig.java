@@ -1,6 +1,6 @@
-package com.example.mask.config;
+package com.annnotation.factory.autoconfigure.mask.config;
 
-import com.example.mask.introspector.MaskSensitiveDataAnnotationIntrospector;
+import com.annnotation.factory.autoconfigure.mask.introspector.MaskSensitiveDataAnnotationIntrospector;
 import com.fasterxml.jackson.databind.AnnotationIntrospector;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Primary;
 public class MaskObjectMapperConfig {
 
     @Primary
-    @Autowired(required = true)
+    @Autowired
     public void objectMapper(ObjectMapper objectMapper) {
         AnnotationIntrospector serializationAnnotationIntrospector
                 = AnnotationIntrospector.pair(objectMapper.getSerializationConfig().getAnnotationIntrospector(), new MaskSensitiveDataAnnotationIntrospector());

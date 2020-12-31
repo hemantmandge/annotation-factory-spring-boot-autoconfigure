@@ -1,7 +1,6 @@
-package com.example.mask.serializer;
+package com.annnotation.factory.autoconfigure.mask.serializer;
 
-import ch.qos.logback.core.util.ContextUtil;
-import com.example.mask.enums.MaskingStrategies;
+import com.annnotation.factory.autoconfigure.mask.enums.MaskingStrategies;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.SerializerProvider;
 import com.fasterxml.jackson.databind.ser.std.StdSerializer;
@@ -12,8 +11,8 @@ public class MaskSensitiveDataSerializer extends StdSerializer<String> {
     private static final long serialVersionUID = 1L;
     private final MaskingStrategies strategy;
     private final int numberOfCharacters;
-    private final String MASKING_SELECTION_CRITERIA = "[a-zA-Z_0-9]";
-    private final String MASK = "X";
+    private static final String MASKING_SELECTION_CRITERIA = "[a-zA-Z_0-9]";
+    private static final String MASK = "X";
 
     public MaskSensitiveDataSerializer(MaskingStrategies maskingStrategies, int numberOfCharacters) {
         super(String.class);

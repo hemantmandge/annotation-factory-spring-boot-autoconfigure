@@ -1,6 +1,6 @@
-package com.example.mask.annotation;
+package com.annnotation.factory.autoconfigure.mask.annotation;
 
-import com.example.mask.enums.MaskingStrategies;
+import com.annnotation.factory.autoconfigure.mask.enums.MaskingStrategies;
 
 import java.lang.annotation.*;
 
