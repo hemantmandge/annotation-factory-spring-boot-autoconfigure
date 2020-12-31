@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 
 @Configuration
-public class MaskObjectMapperConfig {
+public class MaskSensitiveDataObjectMapperConfig {
 
     @Primary
     @Autowired

@@ -1,0 +1,1 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.annotation.factory.autoconfigure.mask.config.MaskSensitiveDataObjectMapperConfig
