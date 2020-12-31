@@ -1,7 +1,7 @@
-package com.annnotation.factory.autoconfigure.mask.introspector;
+package com.annotation.factory.autoconfigure.mask.introspector;
 
-import com.annnotation.factory.autoconfigure.mask.annotation.MaskSensitiveData;
-import com.annnotation.factory.autoconfigure.mask.serializer.MaskSensitiveDataSerializer;
+import com.annotation.factory.autoconfigure.mask.annotation.MaskSensitiveData;
+import com.annotation.factory.autoconfigure.mask.serializer.MaskSensitiveDataSerializer;
 import com.fasterxml.jackson.databind.introspect.Annotated;
 import com.fasterxml.jackson.databind.introspect.NopAnnotationIntrospector;
 

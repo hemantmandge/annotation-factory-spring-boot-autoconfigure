@@ -8,7 +8,7 @@
 		<version>2.4.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.annnotation.factory</groupId>
+	<groupId>com.annotation.factory</groupId>
 	<artifactId>annotation-factory-spring-boot-autoconfigure</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>annotation-factory-spring-boot-autoconfigure</name>
@@ -27,7 +27,6 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
-			<version>2.12.0</version>
 			<optional>true</optional>
 		</dependency>
 		<dependency>

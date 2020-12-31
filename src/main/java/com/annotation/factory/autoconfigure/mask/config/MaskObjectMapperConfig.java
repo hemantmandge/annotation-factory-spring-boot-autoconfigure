@@ -1,6 +1,6 @@
-package com.annnotation.factory.autoconfigure.mask.config;
+package com.annotation.factory.autoconfigure.mask.config;
 
-import com.annnotation.factory.autoconfigure.mask.introspector.MaskSensitiveDataAnnotationIntrospector;
+import com.annotation.factory.autoconfigure.mask.introspector.MaskSensitiveDataAnnotationIntrospector;
 import com.fasterxml.jackson.databind.AnnotationIntrospector;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;

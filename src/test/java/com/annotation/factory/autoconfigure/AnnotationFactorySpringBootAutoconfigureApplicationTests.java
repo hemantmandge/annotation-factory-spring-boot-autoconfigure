@@ -1,4 +1,4 @@
-package com.annnotation.factory.autoconfigure;
+package com.annotation.factory.autoconfigure;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -6,8 +6,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class AnnotationFactorySpringBootAutoconfigureApplicationTests {
 
-	@Test
+	/*@Test
 	void contextLoads() {
-	}
+	}*/
 
 }

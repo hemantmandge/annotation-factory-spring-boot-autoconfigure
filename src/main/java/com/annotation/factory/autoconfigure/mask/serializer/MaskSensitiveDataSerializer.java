@@ -1,6 +1,6 @@
-package com.annnotation.factory.autoconfigure.mask.serializer;
+package com.annotation.factory.autoconfigure.mask.serializer;
 
-import com.annnotation.factory.autoconfigure.mask.enums.MaskingStrategies;
+import com.annotation.factory.autoconfigure.mask.enums.MaskingStrategies;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.SerializerProvider;
 import com.fasterxml.jackson.databind.ser.std.StdSerializer;
